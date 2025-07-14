@@ -229,7 +229,7 @@ export default function Duvidas() {
           <div className="max-w-4xl mx-auto">
             {filteredFAQs.length > 0 ? (
               <div className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-xl border border-white/50 overflow-hidden">
-                <Accordion type="single" collapsible className="w-full">
+                <Accordion type="single\" collapsible className="w-full">
                   {filteredFAQs.map((faq, index) => {
                     const IconComponent = faq.icon;
                     return (
